@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Insert title here</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<div id="login-error">${error}</div>
+
+<form action="/authing/aaa" method="post">
+    <p>
+        <label for="userName">Username</label> <input id="userName" name="userName" type="text"/>
+    </p>
+    <p>
+        <label for="passwd">Password</label> <input id="passwd" name="passwd" type="password"/>
+    </p>
+    <input type="submit" value="Login"/>
+</form>
+
+</body>
+</html>
